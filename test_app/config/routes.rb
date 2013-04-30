@@ -1,4 +1,8 @@
 TestApp::Application.routes.draw do
+
+  match 'posts/' => 'posts#index', as: :root
+
+  resources :posts
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
