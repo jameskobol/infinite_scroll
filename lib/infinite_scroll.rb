@@ -1,0 +1,6 @@
+require 'infinite_scroll/controller_extensions'
+require 'infinite_scroll/engine'
+require 'infinite_scroll/helper'
+require 'infinite_scroll/railtie'
+require 'infinite_scroll/utils'
+require 'infinite_scroll/version'
